@@ -1,0 +1,103 @@
+[[avrdude]]
+arch = "aarch64"
+git-tree-sha1 = "728fc777ae1bd20a71536a3d8857a1c0876ec064"
+libc = "glibc"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "e0ecc58618b7bd030e0ad7b9559dc1dac0f81b2725c0ae74b4bc0308f180a81a"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.aarch64-linux-gnu.tar.gz"
+[[avrdude]]
+arch = "aarch64"
+git-tree-sha1 = "e686813449a866b6ae4c0f8e4f82dccd27c64ba6"
+libc = "musl"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "e75e31dbf9b1ec1712c6ead063404a74fcd91a1f5ccac8454657b9bab499e6ae"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.aarch64-linux-musl.tar.gz"
+[[avrdude]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "04ffdee83aac9158716deb9eb7a438c896b058d5"
+libc = "glibc"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "10264250ff13e7158a7f6f3be3078f7553bd6fb9792017dcb63c3cddfad90fbf"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.armv6l-linux-gnueabihf.tar.gz"
+[[avrdude]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e1355f4b68b8051990be48dcb2f48ab08b74df40"
+libc = "musl"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "604b174d26bd50333b92ba7929771f942923a3d090cd12f04daf85aac96095c2"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.armv6l-linux-musleabihf.tar.gz"
+[[avrdude]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "537cbbb8dbfb57ef76d231d60f4a9b4295210709"
+libc = "glibc"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "2b63e1401affc2816ea78510887272ef0e71d3260428af0ef52fbc2532834a5e"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.armv7l-linux-gnueabihf.tar.gz"
+[[avrdude]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e3e522cefb57dc32cb189b0eb896697fdfb7cd40"
+libc = "musl"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "164c7141fd58f7dbb7188208a14720340d31f7d75acdccb58d28872f41d79e82"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.armv7l-linux-musleabihf.tar.gz"
+[[avrdude]]
+arch = "i686"
+git-tree-sha1 = "d799534092731f38275a09727809c6587ae61590"
+libc = "glibc"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "fb34bf6b3b9ee1f7ef9d561edcf09db861abecea26d08937bbca0bd7d6e23c87"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.i686-linux-gnu.tar.gz"
+[[avrdude]]
+arch = "i686"
+git-tree-sha1 = "c8afc0f5bc8dec534321518b8ec6b977fece7a5d"
+libc = "musl"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "1e7948be692e52d88c6aba7689d408db5a375c8710d77cf15ceaacf546a73a6d"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.i686-linux-musl.tar.gz"
+[[avrdude]]
+arch = "powerpc64le"
+git-tree-sha1 = "ba47ec711aa9adc8b13cbe5c0ac7cf7077ced9bf"
+libc = "glibc"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "6f6a8605b52e6d619115b70153762551d9b8ced5686f2165491cf969c2ccb49f"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.powerpc64le-linux-gnu.tar.gz"
+[[avrdude]]
+arch = "x86_64"
+git-tree-sha1 = "3b7455152eb421977d3f0bcffc867dd12a61acdd"
+libc = "glibc"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "9d06a3b60b70105a5a68c0f5a7414919700262417363cffb655776b0b62c7406"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.x86_64-linux-gnu.tar.gz"
+[[avrdude]]
+arch = "x86_64"
+git-tree-sha1 = "f904a7d1dfd1ae30e85dfe884b4158de054938da"
+libc = "musl"
+os = "linux"
+
+    [[avrdude.download]]
+    sha256 = "751d17a0b1b7073cb4ffd9072e0016964e8f3d48bb193ee7744c1b6339156fda"
+    url = "https://github.com/JuliaBinaryWrappers/avrdude_jll.jl/releases/download/avrdude-v7.1.0+0/avrdude.v7.1.0.x86_64-linux-musl.tar.gz"
